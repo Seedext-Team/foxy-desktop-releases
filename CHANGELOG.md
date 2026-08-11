@@ -16,7 +16,7 @@ First release.
 - The transcript lives in a panel that rises from the status pill.
 - A call in progress is detected and offered for recording, with a native popup on macOS.
 - A note exports as one Markdown file from its own menu.
-- Transcription runs through the Foxy relay, so no AI provider key is stored on your Mac. The relay can use OpenAI, Gladia, or Deepgram.
+- Transcription runs through the Foxy relay, so no AI provider key is stored on your Mac.
 
 ### Improvements
 
