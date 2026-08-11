@@ -2,6 +2,25 @@
 
 What changed in Foxy, newest first.
 
+## 0.2.0 (2026-08-11)
+
+### Features
+
+- Foxy updates itself. When a newer version is out, an Update button appears in the drawer; Foxy downloads it and comes back on the new version only when you press Restart.
+- Settings shows which version you run and checks for updates on the spot. The version on offer can be skipped with one press, and checking again brings it back.
+- Foxy says so when you're offline: a banner sits above every view until the connection returns, and update checks wait instead of failing in silence.
+
+### Fixes
+
+- A call resumed from the popup records the Mac's audio again, not only the microphone.
+- Recording survives Bluetooth headsets that promise one sample rate and deliver another.
+- The microphone follows your input device when it changes in the middle of a recording.
+- The computer-audio switch on a call's page shows what the recording actually uses.
+
+### Improvements
+
+- Foxy Live is signed by Seedext, so the installer and the app name their real publisher.
+
 ## 0.1.0 (2026-08-07)
 
 First release.
