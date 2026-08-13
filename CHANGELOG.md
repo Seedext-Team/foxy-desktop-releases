@@ -2,6 +2,20 @@
 
 What changed in Foxy, newest first.
 
+## 0.3.0 (2026-08-13)
+
+### Features
+
+- Foxy stops recording on its own when the call it offered to record ends. A recording you started yourself keeps going, and so does one that belongs to a different call.
+- A recording whose microphone dies now carries on with the computer's audio instead of ending. A warning on the note says your own voice is no longer being transcribed, and the recording closes itself once everything has been quiet for the delay you set.
+
+### Fixes
+
+- A recording whose microphone stops sending anything closes itself after the inactivity delay. It used to run until someone noticed, because the delay counted audio rather than time.
+- A call where only the other side speaks stays open with speaker labels on, instead of stopping itself mid-sentence.
+- A recording that loses the microphone and the computer's audio ends itself rather than claiming to record until you press Stop.
+- A full disk warns you and keeps transcribing the call. It used to cost you the computer's audio.
+
 ## 0.2.0 (2026-08-11)
 
 ### Features
