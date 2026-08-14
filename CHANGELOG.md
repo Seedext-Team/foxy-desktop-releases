@@ -2,6 +2,16 @@
 
 What changed in Foxy, newest first.
 
+## 0.3.1 (2026-08-14)
+
+### Features
+
+- A waiting update shows through a closed drawer. A pulsing dot sits on the drawer button until you open it; the Update button is inside, where it always was.
+
+### Fixes
+
+- The buttons along the top of the window stay lined up with the traffic lights. macOS moves the lights between window states and resets them after fullscreen, so Foxy now asks the window where they are instead of trusting a fixed number.
+
 ## 0.3.0 (2026-08-13)
 
 ### Features
