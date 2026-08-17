@@ -2,6 +2,16 @@
 
 What changed in Foxy, newest first.
 
+## 0.4.0 (2026-08-17)
+
+### Changes
+
+- Foxy is now called Foxy Desktop. The new name shows in the title bar, in the menu bar and in the System Settings privacy lists. Nothing else moves: the microphone and computer-audio permissions you already gave still hold, your recordings are where you left them, and your relay secret is still saved.
+
+### Fixes
+
+- Clicking the Dock icon brings the window back after you close it. Until now only the menu bar could do that.
+
 ## 0.3.1 (2026-08-14)
 
 ### Features
