@@ -2,6 +2,23 @@
 
 What changed in Foxy, newest first.
 
+## 0.5.0 (2026-08-19)
+
+### Features
+
+- You sign in with a Microsoft work account. Foxy's first screen has one button, the button opens your browser, and Foxy is signed in when the browser comes back. There is no secret to paste any more, and Settings shows which account Foxy runs under.
+- Signing out keeps your notes. Everything local still works; recording, transcription and summaries stop, each with a sentence that says to sign in. An old pasted secret is removed by the same button.
+
+### Fixes
+
+- A refused or failed sign-in ends right away, with the reason in the browser tab and next to the button. It used to sit on "Waiting for your browser…" for five minutes.
+- A session revoked by an administrator stops looking signed in within fifteen minutes, and Record closes instead of writing a recording nothing will transcribe.
+- A brand-new install starts at the sign-in screen. It used to skip it and offer a Record button that failed when pressed.
+
+### Improvements
+
+- The pages your browser shows during sign-in look like Foxy: the app's paper background, one sentence, nothing to load and nothing to run.
+
 ## 0.4.0 (2026-08-17)
 
 ### Changes
