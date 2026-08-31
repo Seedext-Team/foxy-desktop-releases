@@ -2,6 +2,17 @@
 
 What changed in Foxy, newest first.
 
+## 0.6.0 (2026-08-31)
+
+### Features
+
+- Foxy shows a recording at the notch. On a Mac with a notch, a red dot, the name and a live sound level sit on the menu bar either side of the camera. Point at them and the strip opens downward with the elapsed time and a Stop button; click anywhere else on it and the window comes up.
+- The sound-wave bars beside the Record button follow the microphone. They used to move at a fixed rate whatever the room was doing.
+
+### Fixes
+
+- The clock at the notch counts. It drew the same second for the whole recording.
+
 ## 0.5.0 (2026-08-19)
 
 ### Features
