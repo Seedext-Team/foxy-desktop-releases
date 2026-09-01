@@ -2,6 +2,12 @@
 
 What changed in Foxy, newest first.
 
+## 0.6.2 (2026-09-01)
+
+### Fixes
+
+- An update offer that has been sitting in the drawer follows the newest release. If Foxy was left running with one version on offer while a newer one came out, pressing Update installed the older one and the newer one showed up only after the restart.
+
 ## 0.6.1 (2026-09-01)
 
 ### Fixes
