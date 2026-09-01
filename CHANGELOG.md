@@ -2,6 +2,13 @@
 
 What changed in Foxy, newest first.
 
+## 0.6.1 (2026-09-01)
+
+### Fixes
+
+- The sound-wave bars each answer to the sound. They used to hand one reading down the row, so every word drew the same wave sliding across the meter.
+- The dot that says an update is waiting sits on the corner of the drawer icon. It sat on the corner of the button around it, a little way off the icon.
+
 ## 0.6.0 (2026-08-31)
 
 ### Features
