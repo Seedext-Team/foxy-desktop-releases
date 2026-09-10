@@ -2,6 +2,26 @@
 
 What changed in Foxy, newest first.
 
+## 0.7.0 (2026-09-10)
+
+### Features
+
+- You can sign in with Google as well as Microsoft. The first screen shows one button per sign-in the relay has been given, so a team on Google Workspace no longer needs a Microsoft account to get in.
+- A document you attach stays where you put it. Foxy reads its text once and keeps that; it used to also copy the file into a folder of its own inside ~/Foxy that nothing ever read back. An upgraded install deletes the old copies at launch.
+- Auto starts on the language the app is in and keeps listening. The dropdown reads "Auto (French)" from the first second instead of guessing blind, three confident turns in another language move it, and one quoted sentence does not. Transcription gains Spanish, and the interface gains German.
+- Transcripts come back punctuated, and every block starts with a capital letter. A French recording used to arrive as a handful of 30-second paragraphs with no full stop anywhere in them.
+- Foxy updates itself on Windows. Until now only Macs were offered an update.
+- App-health records are deleted after fourteen days. They used to pile up with nothing ever removing them.
+
+### Fixes
+
+- A relay that accepts the connection and then answers nothing no longer freezes the live transcript. Foxy gives up after two turns, says so once in a banner, and picks translation back up when the relay starts answering again.
+- Foxy offers to record a call only when recording would work. Signed out, microphone denied or relay unreachable used to get the offer anyway, and Record ended in a red banner every time.
+- The application log reads in your own time, with the offset written beside it. Every line was stamped UTC, so reading one meant converting it by hand.
+- Signing in works on Windows. The address handed to the browser was cut in half at the "&", and the relay then refused its own sign-in link.
+- The last thing said before you press Stop reaches the transcript. The drain allowed the relay two seconds, and a hosted one needs more than that.
+- A CV keeps its vocabulary when Foxy derives keywords from it. PostgreSQL, gRPC, iOS, C++, CI/CD and a dozen more were dropped before the recording had started.
+
 ## 0.6.2 (2026-09-01)
 
 ### Fixes
