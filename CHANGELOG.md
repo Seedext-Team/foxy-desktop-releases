@@ -2,6 +2,38 @@
 
 What changed in Foxy, newest first.
 
+## 0.8.0 (2026-09-28)
+
+### Features
+
+- Notes live in projects. The drawer shows a Projects tree under Home, each project unfolds into its notes, and a note that belongs to no project waits under "No project".
+- Projects and notes can be dragged in the drawer. A project moves to a new place in the list; a note moves within its project, into another one, or onto "No project".
+- Every drawer row has a menu, behind its "…" button or a right-click. A note can be renamed, copied as Markdown, duplicated or deleted; a project can be renamed or deleted, and deleting it keeps its notes.
+- The drawer is as wide as you drag it, from 234 to 360 pixels, and it remembers the width. A name too long for it fades into an ellipsis.
+- You can have more than one workspace. The profile button at the foot of the drawer switches between them and creates new ones. Settings lists them with their note counts, and deleting one moves its notes, files, projects and vocabulary into the workspace you pick.
+- Foxy reads your calendar. Home shows the day's next three meetings in an "Up next" card, a meeting offers to record itself when it starts, and its row opens the meeting's note. The access is read-only and stays on your computer.
+- A calendar meeting can be filed in a project straight from Home, and its row names the project under the title.
+- Signing in with Microsoft or Google connects your calendar in the same consent. Foxy now talks to the provider itself, and the provider's tokens never leave your computer.
+- Chips under a note's title show its date and time, its participants, its project and its attached files with their sizes. Click one to change it.
+- Settings has four panels, reached from the drawer: General, Account, Workspaces and Connectors.
+- A workspace keeps its own vocabulary, typed in Settings. Transcription listens for those words first, and the summary spells them the way you typed them.
+- The notch indicator wears the Foxy mark and sits evenly on both sides of the notch.
+
+### Fixes
+
+- Leaving a note keeps what you typed. Back, Forward, Home, switching workspace, quitting and restarting for an update all save first; the last keystrokes of a note, or all of a new one, used to go missing.
+- The first letter typed into an empty notes box no longer knocks you out of it.
+- A new note with text on it can be deleted from its menu.
+- Home drops the red recording pill as soon as a take stops.
+- Signing out stays signed out. A session refresh landing at the same moment could sign you back in.
+
+### Improvements
+
+- A note you start by hand keeps the title "Note" until you type another. Foxy no longer renames it after the first words spoken.
+- A note you typed and never recorded is dated and sorted like any other. It used to sit under "Draft", on no day at all.
+- The relay address is built in, and the setting only overrides it. Clearing the field goes back to the default.
+- Sign-in is the only way in. The old pasted access key is gone, so an install that still used one has to sign in.
+
 ## 0.7.0 (2026-09-10)
 
 ### Features
