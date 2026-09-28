@@ -2,6 +2,17 @@
 
 What changed in Foxy, newest first.
 
+## 0.8.1 (2026-09-28)
+
+### Fixes
+
+- You can switch "Use computer audio" off on a call. Notes opened from a calendar meeting or started from the call offer used to lock it on, so a call could never be recorded from the microphone alone. It still starts on.
+- Filled buttons, Record included, get lighter when the pointer is over them. They used to turn from near-black to black, and the change was invisible.
+
+### Improvements
+
+- "New note" on Home is a filled button, black with white text.
+
 ## 0.8.0 (2026-09-28)
 
 ### Features
