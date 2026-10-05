@@ -2,6 +2,39 @@
 
 What changed in Foxy, newest first.
 
+## 0.8.2 (2026-10-05)
+
+### Features
+
+- Your notes are encrypted on your computer, and each account has its own. Signing in opens your notes and signing out locks them; someone else signed in on the same computer sees only theirs. Recordings are encrypted as they record, and the keys renew themselves without you doing anything.
+- The notes already on your computer move into the account you sign in with.
+- A Security panel in Settings says in plain words whether your notes are protected.
+- Your notes sync between your computers, encrypted, through a folder Foxy keeps in your own OneDrive or Google Drive. Edits made on two computers merge, down to the words in a note. If a note is being recorded on one computer, the other one says so, and Settings > Account lists your computers.
+- On a new computer, signing in brings your notes back.
+- AI apps on your computer can read your notes. Settings > Connectors connects Claude, ChatGPT and Codex, Cursor and Claude Code in one click, and Activity shows what each app asked for.
+- If you allow it, an app can also create, rename, move and trash notes, workspaces and projects. Only you can empty the trash. After you connect ChatGPT, Foxy can restart it so it loads Foxy.
+- Deleting a note moves it to the trash, with an Undo. In the trash you can read a note and put it back; "Empty trash" is the only way to delete one for good.
+- Foxy has a dark theme. Settings offers System, Light and Dark, and the light theme now uses cool greys.
+- A calendar meeting's note starts with the invitation's guests and agenda, says where the meeting is, and has a Join button.
+- The agenda on Home covers the days around today.
+- The recording indicator shows on every screen, including the ones without a notch.
+
+### Fixes
+
+- A call during a calendar meeting records into that meeting's note. It used to land in a note called "Microsoft Teams meeting".
+- A booking tool's "[1 événement]" placeholder stays off the agenda.
+- Claude Desktop shows Foxy's icon in its connectors list.
+- Claude on Windows can install Foxy. On Windows, ChatGPT and Codex also get lines to paste when Foxy cannot edit their settings.
+
+### Improvements
+
+- The project menu lists the current project first, has more room, and creates a project from its footer.
+- The participants list names your own row after you.
+- The drawer's resize line is thinner and fades out at both ends.
+- A note fades out under the record pill, and Home's titles and times are lighter.
+- "New note" sits evenly in the window's corner.
+- Settings opens on Account.
+
 ## 0.8.1 (2026-09-28)
 
 ### Fixes
