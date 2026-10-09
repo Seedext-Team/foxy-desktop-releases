@@ -2,6 +2,42 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.0 (2026-10-09)
+
+
+### Features
+
+- Notes have a new editor. Headings, lists, to-do lists, quotes, code, tables and links format themselves as you type. "/" opens a menu of blocks, a bar over the selected text changes its style or adds a link, and ⌘K edits a link.
+- Tables, to-do lists and highlights look the same in search results, in the trash and in Copy as HTML as they do in the note.
+- A search page finds notes, transcripts, summaries, files, people, projects and meetings in the current workspace. A transcript or summary result opens the note at that passage.
+- ⌘F finds words in the open note, its summary and its transcript. ⌥⌘F opens the search from any page.
+- ⌘N starts a note, ⌘, opens Settings and ⌘\ shows or hides the drawer, from any page. The buttons show their keys when the pointer is over them.
+- If the connection drops during a recording, Foxy keeps the audio and transcribes the missing part after the recording stops. The transcript marks where text is still to come, and the note's header says how many minutes are left.
+- Foxy deletes a recording's audio when the recording stops, once its gaps are filled, or after 30 days at most. The "Keep audio files for" setting is gone.
+- You can change the language during a recording. Foxy keeps what was being said, then goes on in the new language, and the record pill says "Switching to French…" while it does.
+- Settings > Workspaces renames a workspace and, from a row's "…" menu, makes it the default. The default is the same on all your computers.
+- Settings > Account has a Sync now button.
+- The first sync of a computer merges the projects and workspaces that have the same name on both sides.
+- Deleting a project asks whether to keep its notes or move them to the trash.
+- Every delete asks in the same dialog, and if Foxy cannot delete, the dialog says why.
+- An AI app can open a calendar meeting's note, and the note is linked to that meeting.
+- The drawer button shows whether the drawer is open, and a round "New note" button sits beside it on every page.
+
+### Fixes
+
+- A pause in speech ends its line in the transcript. The next sentence was sometimes joined to the line before.
+- The microphone's banner stays up until the microphone works again. A reconnection used to take it down while the microphone was still silent.
+- Switching to AirPods during a recording no longer leaves the microphone dead until the end.
+- A note hidden by a move on another computer comes back.
+- No part of the window bounces past its edge on a trackpad drag.
+- Every sentence Foxy shows starts with a capital and ends with a full stop.
+- The record pill stays on one row. The window is now at least 960 pixels wide.
+- The page's scroll bar stays clear of the window's edges and of the fades at the top and bottom.
+
+### Improvements
+
+- When a session expires, the record pill says so in one short sentence.
+
 ## 0.8.2 (2026-10-05)
 
 ### Features
