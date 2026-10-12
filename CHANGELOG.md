@@ -2,6 +2,25 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.1 (2026-10-12)
+
+### Features
+
+- Settings > Connectors > AI apps now offers Claude and ChatGPT only. Cursor and Claude Code are gone, and Foxy removes any connection to them when it updates.
+- The transcript panel matches the rest of Foxy, and its lines start where your notes start. A button in its corner makes it tall for reading a call back, and Foxy remembers the height. It opens a little shorter than before.
+- A "Transcript" chip under the title opens and closes the transcript. It replaces the row that sat in the middle of the note, and the panel has its close button back.
+- The summary sits at the top of the note, folded to one line. Click it to read the whole summary; Foxy remembers whether you left it open. The line between the title area and the notes is gone.
+- ⌘F also searches a folded summary and a closed transcript, and opens them to show what it found. It starts searching at two characters.
+- "Projects" in the sidebar reads as a section title. It still folds, with its arrow after the word when you point at it.
+- The record pill's level bars grow from their middle, like the ones in the notch, and both react more to your voice.
+
+### Fixes
+
+- "Create a project" stays greyed out until you type a name.
+- Filled buttons and "Generate summary" are readable again when you point at them.
+- The pill's sound-wave button and "Use computer audio" no longer fade into their background when you point at them.
+- Search highlights in the transcript follow each key you type instead of keeping the previous search's.
+
 ## 0.9.0 (2026-10-09)
 
 
