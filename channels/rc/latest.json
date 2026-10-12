@@ -1,0 +1,19 @@
+{
+  "version": "0.9.1",
+  "notes": "## 0.9.1 (2026-10-12)\n\n### Features\n\n- Settings > Connectors > AI apps now offers Claude and ChatGPT only. Cursor and Claude Code are gone, and Foxy removes any connection to them when it updates.\n- The transcript panel matches the rest of Foxy, and its lines start where your notes start. A button in its corner makes it tall for reading a call back, and Foxy remembers the height. It opens a little shorter than before.\n- A \"Transcript\" chip under the title opens and closes the transcript. It replaces the row that sat in the middle of the note, and the panel has its close button back.\n- The summary sits at the top of the note, folded to one line. Click it to read the whole summary; Foxy remembers whether you left it open. The line between the title area and the notes is gone.\n- \u2318F also searches a folded summary and a closed transcript, and opens them to show what it found. It starts searching at two characters.\n- \"Projects\" in the sidebar reads as a section title. It still folds, with its arrow after the word when you point at it.\n- The record pill's level bars grow from their middle, like the ones in the notch, and both react more to your voice.\n\n### Fixes\n\n- \"Create a project\" stays greyed out until you type a name.\n- Filled buttons and \"Generate summary\" are readable again when you point at them.\n- The pill's sound-wave button and \"Use computer audio\" no longer fade into their background when you point at them.\n- Search highlights in the transcript follow each key you type instead of keeping the previous search's.",
+  "pub_date": "2026-10-12T12:47:23Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1oxZGFuTk9zL0dOUm0rNHlwZG43cEtJZjJkdVd5T3hKZ24yaG5PUzJDbmpHdE5qYlJ1S2ZiUG14QndrWVlxaWttdHByRCtMTjVYWC9lQUlSdXQ4U2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODA3MDcxCWZpbGU6Rm94eSBEZXNrdG9wLmFwcC50YXIuZ3oKbVRha2NyanAzbGJYelpEY09yWkVTTzhUNGtBK3RTNEtwYnJDb1lWQmNkSkoyeFprck01T284VmUybERka0VrMXBNTGlVQ0YxaFJRT1RsaEhyYm9UQVE9PQo=",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.1/Foxy_Desktop_0.9.1_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2FNY0R3L29ML1N2dzRnMjNpU1ZjSm5mekFGUUl0TnlVRVR6VFc4R2ZEWE5LVjJPNG9GVUJWS2ZhdHRycjhaWTZ0cFV3K0xHc24xRjl1L2JWM1R0a1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODA5MDQ1CWZpbGU6Rm94eSBEZXNrdG9wXzAuOS4xX3g2NC1zZXR1cC5leGUKN1o3eVRCa2VITzFTMzBPRnNYUHlXN1ZDQUhGSHJ0ZVhHRHJNNHltcTNWd1dSZ085a3l0cks1dWE2bEZ3UVNtRm1yMkZTZUpSK0paTS9ucS9XdFlwRFE9PQo=",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.1/Foxy_Desktop_0.9.1_x64-setup.exe"
+    },
+    "windows-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2FwWkJyV281WkF0SmFxVVk3ZlpXaGVTQnhxdkRwbndnMlNraTVzOW9oWU53R2lyQnFhOFJKcEhUOEo2R2Rqd3F3c3dIak9Oa1hqdEc1S3NBdXMxYmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODA5MDY4CWZpbGU6Rm94eSBEZXNrdG9wXzAuOS4xX2FybTY0LXNldHVwLmV4ZQpaL0hhNEhFVUY5OU9id2ZwbFlGME1qOEVJdjlmRTJZWGhvanZWeEVPenkvWG5UM1VzUnNOaWxUNWNqL2Z1dy9MRXY2VE1ZQk11bmdvdDRlMHlDMDJCUT09Cg==",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.1/Foxy_Desktop_0.9.1_arm64-setup.exe"
+    }
+  }
+}
