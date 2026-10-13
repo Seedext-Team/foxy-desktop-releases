@@ -2,6 +2,20 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.3 (2026-10-13)
+
+### Features
+
+- Foxy Desktop is now called Foxy, in the menu bar, the tray, the window title, the Windows Start menu and the installer. On a Mac, an update keeps the "Foxy Desktop" name on the app in your Applications folder until you reinstall from the DMG. On Windows, the new installer replaces the old "Foxy Desktop" install and its shortcuts instead of adding a second copy.
+- The record pill has a "Translate" list next to "Language". You can pick a language before or during a recording, and the translation starts with the next sentence. Foxy remembers your choice, starts on Disabled, and does not translate into the language being spoken.
+- Every recording captures your computer's audio along with your microphone, so the "Use computer audio" switch is gone. If a Mac refused that permission, Foxy records the microphone alone and tells you.
+- The installed version of Foxy shows at the bottom of the sidebar on the Settings page, on Mac and Windows. It no longer shows under your profile on Windows.
+
+### Improvements
+
+- Labeled speakers is paused for now: its setting is gone and recordings are not split by speaker. With translation moved to the pill, Settings no longer has a Transcription section.
+- On Windows, a Claude or ChatGPT connection made before this version can't start Foxy when Foxy is closed. It still works while Foxy runs, and connecting the app again in Settings > Connectors > AI apps fixes it.
+
 ## 0.9.2 (2026-10-13)
 
 ### Features
