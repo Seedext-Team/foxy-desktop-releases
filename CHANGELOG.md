@@ -2,6 +2,20 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.2 (2026-10-13)
+
+### Features
+
+- With a Seedext account, Settings > General > Updates has an "Update channel" setting: Stable, or Release candidate to get new versions before everyone else.
+- On Windows, the sidebar shows which version of Foxy is installed, under your profile.
+
+### Fixes
+
+- Foxy trusts the same certificates as your computer. A Windows PC that was missing a root certificate could not connect until Windows Update ran; it connects now. When a connection fails, Foxy says what to check (the date and time, the proxy or the network), and on Windows the sign-in screen can open Windows Update.
+- Foxy follows the computer's proxy settings.
+- Every button and control stays readable when you point at it, and keyboard focus shows the same ring everywhere.
+- On Windows in the dark theme, the language list in the record pill is no longer white.
+
 ## 0.9.1 (2026-10-12)
 
 ### Features
