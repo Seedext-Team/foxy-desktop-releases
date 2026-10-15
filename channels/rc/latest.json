@@ -1,19 +1,19 @@
 {
-  "version": "0.9.3",
-  "notes": "### Features\n\n- Foxy Desktop is now called Foxy, in the menu bar, the tray, the window title, the Windows Start menu and the installer. On a Mac, an update keeps the \"Foxy Desktop\" name on the app in your Applications folder until you reinstall from the DMG. On Windows, the new installer replaces the old \"Foxy Desktop\" install and its shortcuts instead of adding a second copy.\n- The record pill has a \"Translate\" list next to \"Language\". You can pick a language before or during a recording, and the translation starts with the next sentence. Foxy remembers your choice, starts on Disabled, and does not translate into the language being spoken.\n- Every recording captures your computer's audio along with your microphone, so the \"Use computer audio\" switch is gone. If a Mac refused that permission, Foxy records the microphone alone and tells you.\n- The installed version of Foxy shows at the bottom of the sidebar on the Settings page, on Mac and Windows. It no longer shows under your profile on Windows.\n\n### Improvements\n\n- Labeled speakers is paused for now: its setting is gone and recordings are not split by speaker. With translation moved to the pill, Settings no longer has a Transcription section.\n- On Windows, a Claude or ChatGPT connection made before this version can't start Foxy when Foxy is closed. It still works while Foxy runs, and connecting the app again in Settings > Connectors > AI apps fixes it.",
-  "pub_date": "2026-10-13T15:18:56Z",
+  "version": "0.9.4-rc.1",
+  "notes": "Self-updater artifacts for Foxy 0.9.4-rc.1. The README links the download.",
+  "pub_date": "2026-10-15T07:21:56Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2Q0YlNXUmVkRXQ1ZGcwVWJMZG1XMUZpaVpzRW4rMmVIR0Q1MTBlSW82aWhXZEVXMlpEMmlJMlBGTzBDNWdSZ2UwNUJEeTJXY1Zuemt0TDl1SVYvRXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTAyMjcwCWZpbGU6Rm94eS5hcHAudGFyLmd6CnVOYmJiVXdRQnp1Wk1DaksrMzJBUWx1S2tlSjk5YU9Qb2J5dDFyQkxUYW4xbGUzbDBRTXpMWm5obURkbGlxNDFqa1R6eWowVE9panlGQlFVVWE0aEJnPT0K",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.3/Foxy_0.9.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2RyaWNRZVNQSzN4eUV3U3JJaGhYUHhoSWdGS3FmM09ON2FnSlkzeGp0bGJpTHdhODlyNVAxeFpPbFZvNktML2d3U3dpZTNJejJQdmROZ2c3WVQ2YUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQ2MDkzCWZpbGU6Rm94eS5hcHAudGFyLmd6Ck1Jc3FkQ3ZpeUpodnM2WHdwK09yc0doSk83Z3hVWTIzYS8ycXpEbSs4SGtGUzlQaTljS2xUTVlMNXZvRFdqUlpGZGhjVWE4a2J5dWh3Uk9NMTlnV0N3PT0K",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.4-rc.1/Foxy_0.9.4-rc.1_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2NvMDRWcWtVYmtvQ1dCVGFaUk1JMXVDUkQ2SkNnMkZvUnFMQnBjc0NycGwyU1BrT3RCU2pFbEFzdFNYSWVJN1hnRFc0WFBGNWZGbWFObHkreEZod3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA0NTM5CWZpbGU6Rm94eV8wLjkuM194NjQtc2V0dXAuZXhlClNmUDNseWNldlJJejJqSDV3b0J4aHNYalhNTW5Bb1JwMWQzdElzS3g0dEt4TXJoTDRRN2xrYnBOOHZETm14b0phTWQ1aTJ6cWVhbkMyUHlZWG55NkJ3PT0K",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.3/Foxy_0.9.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1oySHFyNGVOdjZmb1BRa2dDamlwS05vRllHSXlya0dVZnltU1lGMWRZeVZNT3A1c3hrTVlQUmlYMG9YZERMdDdqTStIYzFCZzBndW1FeFh2cXFMcWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQ3ODgwCWZpbGU6Rm94eV8wLjkuNC1yYy4xX3g2NC1zZXR1cC5leGUKTXNYQ3lOSm5KYUpGdmdsYnpCNmFYVGk0VzRQTnJGaUlyTUg4QXdrbUJFRjV3d0dGcURJbG95VlBTdElPUjBNMXBySXBOUFdqcUcyUEFxb1pPMHFUQ2c9PQo=",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.4-rc.1/Foxy_0.9.4-rc.1_x64-setup.exe"
     },
     "windows-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1lIQUZkZjJvUkdTK3pERVJsN041VzhaQjl5RWc5U1o5L2xSSklJK3hqeG1OWk1Sb3JPRG5xUEZuU3BNSHY1VWl6bzBmU2o0L1NXcUhrb25tbExaMUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA0NDczCWZpbGU6Rm94eV8wLjkuM19hcm02NC1zZXR1cC5leGUKVFovVTkwZzhwcmFUZGFoSmZVM2RVUGpaZ05uSWlTNkRsVHQ4OGs1MDVJMko2elNRdUk5aFhZY2JhRXNSTjV2dzI3bFlXTHZWUjhwdE90MkI4WEpnQ1E9PQo=",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.3/Foxy_0.9.3_arm64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2NWZ2FLY1J4TXlRMFBMR1MvYStHRnZJL2FIbENnT0xrcUlSM0Z5bjhsYWdDd3NPWExDSHJGR2tzL2JTZkoyU1BTL05yNjV3emNpMHoxdFpaN0xySlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQ4Njg0CWZpbGU6Rm94eV8wLjkuNC1yYy4xX2FybTY0LXNldHVwLmV4ZQpnTkw4Z2hmWnRDNldOSkxrRjJRTkN4Rit1NmUwbmxkU3FzRndsOEdaZEZvTnJoZUp0L2xzdWR4M1g3UThoY3pLQmpoQjVDdTduQkpZV2NPNU1NUDFEZz09Cg==",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.4-rc.1/Foxy_0.9.4-rc.1_arm64-setup.exe"
     }
   }
 }
