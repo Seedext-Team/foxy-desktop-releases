@@ -2,6 +2,37 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.4 (2026-10-16)
+
+### Features
+
+- Foxy now uses Seedext's production servers, which are set when the app is built, and the "Relay URL" setting is gone. After this update, each computer asks you to sign in again once: the sign-in screen says "Sign in again to keep using Foxy after this update." Your notes stay on your computer, and the same account opens them after you sign in. Foxy can't open your notes until you do, so sign in while you are online.
+- The record pill is now a round record button at the bottom right of the note. While you record, a stop button slides out beside it, and only the stop button ends the recording; the record button then opens and closes the transcript.
+- The transcript opens in a panel on the right of the window, from the record button or from a button next to the note's menu. The first recording of a note opens it, and each note remembers whether you left it open. A minus button in the panel's header hides it. The "Transcript" chip under the title is gone.
+- The transcript panel has one language button, for the spoken language and the translation. It opens a menu with "Spoken" and "Translate to", and a change applies to new turns. The button is a grey pill that turns dark when you point at it. When the speech is already in the translation language, it reads "(paused)" and Foxy doesn't translate. A line above the turns says from what time the recording is translated.
+- Each turn in the transcript shows the time it was said, and a day line separates turns said on different days. Search results show the time too, and the day when it differs from the note's day. A note you resume days later no longer shows times like "185:46:58".
+- Every tooltip in Foxy now looks like the "New note" button's label, instead of the system's.
+- A short tour points at Foxy's main controls after the first launch. Help in the drawer shows it again.
+- Home lists your notes under "Recent notes", by when you last opened them on this computer, one line per note. A note shows a tag only while it records or when it failed.
+- New notes no longer ask you to choose between Call and Note. Every note is just a note.
+- "Join" on a calendar meeting's note opens the meeting link and records into that note. The recording ends when the call ends.
+- Settings has a Sign out button next to the version, at the bottom of its sidebar.
+- In Claude Desktop, the Connectors > Foxy menu lists the 20 notes at the top of Home, so you can attach one to a message.
+- When your transcription hours for the month are used up, or Foxy is paused for your organization, Foxy says so in plain words when you record and on the minutes of a transcript that wait to be transcribed. When Foxy is paused for your organization, it also says so when you ask for a summary and during live translation; the monthly hours never stop summaries or translation. Foxy keeps the audio of the missed minutes for up to 30 days after the recording, and transcribes it when your hours go up, the month changes (in UTC) or the pause ends. Earlier versions showed a general error in these cases.
+
+### Fixes
+
+- "Auto" now detects the spoken language. Before, Auto kept transcribing in your interface language. The language button shows the language Foxy heard, and each turn is translated according to its own language.
+- Live translation no longer stalls or freezes when the translation service is slow. The grey live text keeps moving, and finished turns don't wait behind a slow one.
+- Claude Desktop keeps Foxy's tools after you quit or update Foxy. Before, Claude showed "Server disconnected" until you restarted it. If you quit Foxy, it stays closed; the tools work again once you open it.
+- If you connect Claude while you are signed out of Foxy, the connection now waits for you to sign in. Before, Claude lost Foxy until you restarted Claude.
+- A sign-in that is turned away for a reason other than your email domain no longer says that your domain is not allowed.
+
+### Improvements
+
+- The "Release candidate" update channel is now called "Beta".
+- The note's chip row no longer shows a Recording chip.
+
 ## 0.9.3 (2026-10-13)
 
 ### Features
