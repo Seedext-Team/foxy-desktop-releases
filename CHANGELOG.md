@@ -2,6 +2,29 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.5 (2026-10-21)
+
+### Features
+
+- When live transcription has a problem, Foxy keeps trying for as long as you record and says nothing for the first minute. After that, the meeting banner shows one short line that names the cause, and the line goes away as soon as the transcript is live again. Foxy stops only when you or your administrator have to do something, and then it says what.
+- A part of the transcript that is still missing now says what it waits for: a connection, the service, your administrator, or a sign-in. Before, it always asked you to go online.
+- Messages about sign-in, summaries and translation now say what to do, in your language, and no longer show the server's own words.
+
+### Fixes
+
+- A summary now retries for up to 15 seconds when the service is busy, then says so.
+- Translation treats a busy service as a short pause, and says it is paused only after a minute of failures.
+- After a reconnect, the transcript's missing part closes as soon as the connection is back, even if nobody speaks. An outage now leaves one missing part instead of one per reconnect.
+- Filling in a missing part of the transcript no longer loses turns when your sign-in needs to be refreshed at the same time.
+- Foxy no longer signs you out when it can't read the server's answer to a session refresh; it tries again.
+
+### Improvements
+
+- When your administrator asks for new encryption keys, Foxy replaces its audio key at once and tells the administrator when all its keys are new.
+- Foxy now tells Seedext's servers which version it is, so your administrator can see which computers need an update.
+- Export diagnostics shows the error code of each failed request.
+- The Project button in the agenda has the same rounded shape as Today.
+
 ## 0.9.4 (2026-10-16)
 
 ### Features
