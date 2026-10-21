@@ -1,19 +1,19 @@
 {
-  "version": "0.9.5",
-  "notes": "## 0.9.5 (2026-10-21)\n\n### Features\n\n- When live transcription has a problem, Foxy keeps trying for as long as you record and says nothing for the first minute. After that, the meeting banner shows one short line that names the cause, and the line goes away as soon as the transcript is live again. Foxy stops only when you or your administrator have to do something, and then it says what.\n- A part of the transcript that is still missing now says what it waits for: a connection, the service, your administrator, or a sign-in. Before, it always asked you to go online.\n- Messages about sign-in, summaries and translation now say what to do, in your language, and no longer show the server's own words.\n\n### Fixes\n\n- A summary now retries for up to 15 seconds when the service is busy, then says so.\n- Translation treats a busy service as a short pause, and says it is paused only after a minute of failures.\n- After a reconnect, the transcript's missing part closes as soon as the connection is back, even if nobody speaks. An outage now leaves one missing part instead of one per reconnect.\n- Filling in a missing part of the transcript no longer loses turns when your sign-in needs to be refreshed at the same time.\n- Foxy no longer signs you out when it can't read the server's answer to a session refresh; it tries again.\n\n### Improvements\n\n- When your administrator asks for new encryption keys, Foxy replaces its audio key at once and tells the administrator when all its keys are new.\n- Foxy now tells Seedext's servers which version it is, so your administrator can see which computers need an update.\n- Export diagnostics shows the error code of each failed request.\n- The Project button in the agenda has the same rounded shape as Today.",
-  "pub_date": "2026-10-21T14:27:35Z",
+  "version": "0.9.6-rc.1",
+  "notes": "Foxy 0.9.6-rc.1. On a Mac, install from the .dmg; on Windows, from the -setup.exe for your processor.",
+  "pub_date": "2026-10-21T15:49:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1Y4alVubWgySE5ZZEZKbThHMHZqS0lGUzdsbisxNE56Y2ttRVhpN0ZkTWp4NFhlelhNZUVnVG5LeXpGYUxuNTV6cXNzMlNqZndxV21seGJxN0s0NUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkwMTUxCWZpbGU6Rm94eS5hcHAudGFyLmd6CjRGUW91KzIvQ1BqN3RpVHJPTWd5MVRaOWlTZ2d4UXhyQzVxbGw2MjdpNDMrbHdNMHFOQ3AvT1ZzK29KdnYvRXcvSXhFeDV2dnQvZ0RyOEdVZlRmQkFBPT0K",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.5/Foxy_0.9.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1VKeWNkMktMdVV3UG8xVnN5VW93bXROWXdzdXR2RmlBQjJjcDVncUh3VkJRTFNHdWRxMlYvNE5XSURIU3RjSDBwYlVLRkZtYWxVK1JsUmZPazlkS3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk0NzgwCWZpbGU6Rm94eS5hcHAudGFyLmd6Ck5XR3EvajlDNlNiNlJGUFJQZU4wVlNpYTBwNXNQSnZoaVV0UmpHanoxRzR2QU9id1RHWE4wUExMc1VGVUUyZFpSbkNSZjM5MjFmR3k1NkJENHNaaEFRPT0K",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.6-rc.1/Foxy_0.9.6-rc.1_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1ZmWDVxMEVUYUNMWXpra0t5bklvM093R2VvbjdON0toc3NiN2ExdmhuQjRuOE1NU2J6cGRjSXZhdU9ySTNYVERYc0VzVURVdmNqZllxY0NKUE81UHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkxOTM0CWZpbGU6Rm94eV8wLjkuNV94NjQtc2V0dXAuZXhlCnNITnVla3BZTXZ0NnNUbGNNTy96dm5KRzBLN0lyV2g4REpvYTFIYlUrS1FVZUppOC9xUy9sdys1NlJ6RVIxMS9DakdpU04rbkdJRy9lek9sR2d1M0JnPT0K",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.5/Foxy_0.9.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2Qxa09hVFViWHhVYmM0SDI5VmxnNndxRkNzSmhZMEdWNTkwa1h6eS9uNkIyRlkweXJJNzF3N3hiVm5Hc1UrOGVyeEQ4SXFaUklDT0RiYXBXcFFLQ1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk3MjQwCWZpbGU6Rm94eV8wLjkuNi1yYy4xX3g2NC1zZXR1cC5leGUKK215ZGNZTE8vTGRadUxnY3l3eFV0dzltdi9wTElqRk85emFEd3paL3hrcmJTSCtwSEJSK3FOY3BrMFhBUVNVVk9sYzJhakI5Tkk3ZFUvcm1Uanc4Q3c9PQo=",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.6-rc.1/Foxy_0.9.6-rc.1_x64-setup.exe"
     },
     "windows-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2U0YXJ2OW93OGV3d0xkY2ViNjRieHpBZFV4Sm1NU3Faa09QL1pKSVBTczlZZjJzc0hwTFBRQ2w3N0dLRzNUS0lwSkFTN2s4WVI1cCtwY1lMWUhVM0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkyMTY2CWZpbGU6Rm94eV8wLjkuNV9hcm02NC1zZXR1cC5leGUKbWJ1a2x3d2JKalNVOElWZmNpZkVWeVZ3S2w3d3kwQ3RQcWJUbi84OVY4S080SXFHZFJhQ1dQRWFFM3loQUNBUThDMVFxUkQ1VFo5WDFJWHpaQ3hJQXc9PQo=",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.5/Foxy_0.9.5_arm64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1FPZ3gzc1dGYmlZV3J0a0l0dW9ZNGk0SEhydzF3bmx0L1Y5NStGYlRDWGtvNXM1TjQwOVdSem1QdmtUS3NpN2s1ekNBeXQwOVFvWFAxc1dvY08xTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTk3NDg5CWZpbGU6Rm94eV8wLjkuNi1yYy4xX2FybTY0LXNldHVwLmV4ZQppSXVEeDNIL0U3ZFVQRXJSTno5T0VaRUpVeHFMYVZUTjREQTlhZkdEVloyRzI5ZHNBc0J1b2Q0Q0hucFVyemhxa1ljSnJSMUtkYnhxVjQydkJqMVdCUT09Cg==",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.6-rc.1/Foxy_0.9.6-rc.1_arm64-setup.exe"
     }
   }
 }
