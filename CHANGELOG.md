@@ -2,6 +2,39 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.6 (2026-10-27)
+
+### Features
+
+- Notes open in tabs, and a tab can show two pages side by side. The drawer and Home have a new layout, and each project has its own colour.
+- The summary has a page of its own. You edit it the way you edit your notes, and your changes sync to your other computers.
+- The note's "⋯" menu can copy and duplicate the note. ⌘Z brings back a note you just moved to the trash.
+- You can fix a finished line of the transcript where it is. Once you do, the summary offers to regenerate.
+- The transcript panel can translate the whole transcript and still keeps the words as they were spoken. One button copies the transcript as the panel shows it.
+- You can make the transcript panel wider or narrower. When the note needs the room, the drawer folds away, and in a narrow window the panel lies over the note.
+- A highlighted word in the transcript shows the passages from your attached documents. Rest on the word for 3 seconds, or click it, and the box stays open: you can scroll the text around the word, and close it with its X.
+- Help on a note page now walks you through that page.
+- When Foxy runs from outside the Applications folder, it offers to move itself there so it can install updates.
+- When your organization's monthly allowance for summaries and translation runs out, Foxy says so plainly, and live translation stops for the rest of that meeting.
+- Claude Desktop keeps working when Foxy restarts or updates. To get this, connect Claude again once in Settings > Connectors.
+
+### Fixes
+
+- The transcript panel closes right away. Before, it paused for a moment first.
+- The buttons at the top of the window stay in line with the window controls while you resize the window.
+- A new user's Home no longer says "No meetings yet". An empty project's page says "No notes yet".
+- "Jump to latest" appears only when the transcript is long enough to scroll.
+- "Show more" under Recent appears only when there are more notes than the ones listed.
+
+### Improvements
+
+- The copy and hide buttons in the transcript panel no longer look like a window's buttons.
+- The ring that shows where the keyboard is when you press Tab is now a thin line.
+- A German or Spanish document no longer turns words like "Die" or "Los" into keywords. A long name such as "Microsoft Entra ID" now also highlights when someone says "Microsoft Entra".
+- The DMG window shows Foxy, an arrow and the Applications folder, and nothing else.
+- You pick a project's colour from twelve swatches.
+- The Recent notes page has no lines between rows, and the Notes / Summary switcher sits on the left.
+
 ## 0.9.5 (2026-10-21)
 
 ### Features
