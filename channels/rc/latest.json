@@ -1,19 +1,19 @@
 {
-  "version": "0.9.7-rc.1",
-  "notes": "Foxy 0.9.7-rc.1. On a Mac, install from the .dmg; on Windows, from the -setup.exe for your processor.",
-  "pub_date": "2026-10-30T17:26:20Z",
+  "version": "0.9.7-rc.2",
+  "notes": "Foxy 0.9.7-rc.2. On a Mac, install from the .dmg; on Windows, from the -setup.exe for your processor.",
+  "pub_date": "2026-10-31T10:09:32Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1I3M1lpYkZhcFpCUk8vNHg1RmlVQmMyak1HWjl3eFVDK3RFa1N5WitSYUdnSEpvS0REWWRhM2ppaFNYTkVWMGR4bzJ0OTFtNU1CZmR5Y0Exb2dzZlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzc4ODYzCWZpbGU6Rm94eS5hcHAudGFyLmd6ClVRNlRkQTMxR1EvemNsdDVQT1Z5YU4zazF4RUY2SEQ5M3ZVVmZmcU5kdnhoVjNDRWxrWlpYYTZRYWd2ZUtoKzEwQ3Y3aE9TS2VlK1NKdDZSWjh3cERnPT0K",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.1/Foxy_0.9.7-rc.1_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1hLK1AwbGF5WkFjdXBodkxxM1RjM1JCYlphalV1UWQ0LzFDVjN4WXlyRWo4c0s5ZmZJTFRPcDZZMCsyZzhGdFVSYWVsQ1ptTnY1MVZFRGVNZzNWN1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDM5MjA0CWZpbGU6Rm94eS5hcHAudGFyLmd6Cis5NGxvcFBZUVdpQmk0VGhITWxDS2ptK3psa0lrVFNrbzhzam9seUcrb2hNeHRpeGdrbkVvNUpsOHFGOGVSWVdGSkdjdFZFQWJMMmxTVXJuZVhkWkFnPT0K",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.2/Foxy_0.9.7-rc.2_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK1lQVXlyMElUUVZNclVlVXBQeXIvLzcrczJpbnpXQmM0QUtsMEtHUklvT2VKMEVwSi9lOWpOR21NbkdzeE94cCtCR2RXZGtXK3FnK0p5dFg4ajFkc0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzgwOTI3CWZpbGU6Rm94eV8wLjkuNy1yYy4xX3g2NC1zZXR1cC5leGUKUU9GUWZBR1QzcUtRU2RCWHh5R0E0dEJrS2d2UkpLcXdTbDJHL0RxMUpsY0JEU1pFWnpjV002MXNzeFFlWk1STDloZit1N0l0NWJ0S1BkMWNiQU9KQWc9PQo=",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.1/Foxy_0.9.7-rc.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2ZhNWQ1UXo5RHBLK1ptQkVNK2hlL09qQXRLM212WGpJUjMvNS9SelRGdzJjeS9ZQnI0ZFB0dlhBMGFkaTg4Q3ExeTdSU3JhMklWSkpmblJxWHBpbHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQwNTg0CWZpbGU6Rm94eV8wLjkuNy1yYy4yX3g2NC1zZXR1cC5leGUKWW9uSWpQZEdIWnUyRk9YekFlZjFvODJkemR5UjgrZUxma25XMFh5WC92STI3WjZEcm5FZHo1V3Vudm9rNVVDNnJIeGsyTHdMNk90KzJVZU91eUZjQVE9PQo=",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.2/Foxy_0.9.7-rc.2_x64-setup.exe"
     },
     "windows-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2JIbFR1eElSa0M1NGN5OHJvTDZnSlg2WisxMjA5QTI5bEkvUTNFUGo1VzUzcC9qMGZiRzNybmpjdGJoVU9Ybk53ZVhZdWdoVVE5Q1UyRnptM1AwQ2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzgwODY0CWZpbGU6Rm94eV8wLjkuNy1yYy4xX2FybTY0LXNldHVwLmV4ZQpoUW93anE3TG1OM2c1S3BkTWZyS2h2UWRFQ2hpcFhpb2FRcWs5UUFVdENlWHV2MkdvZjhVbndqY1dyTFdjU2R1UFJOM1J4NXY2eEpSejVKUVBYc1BEdz09Cg==",
-      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.1/Foxy_0.9.7-rc.1_arm64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVURTZaNzJ3ZjhFK2JwWVNmaEs3Z3ZlQUJQNm1ITVlkcGVINWRVLzR5WWxMbEUyVnY1OHRqVDNKUlFGL0JEdGIwcE4zbFI0TEl1aWZlVmM4MHZrYXduaGk5Mjg2ODZjbUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQxMTE2CWZpbGU6Rm94eV8wLjkuNy1yYy4yX2FybTY0LXNldHVwLmV4ZQpyaEwyK3hwK0I5SnZ6MUZPVHp5eUNKTkZjeU1xNkxwZjZydXZyZ3FIZ3NWVEJLckxDT3hzQTN0bFhzb2tOUjVKYTliSk1Vb09ad1dmckNCMk4zZjJCUT09Cg==",
+      "url": "https://github.com/Seedext-Team/foxy-desktop-releases/releases/download/v0.9.7-rc.2/Foxy_0.9.7-rc.2_arm64-setup.exe"
     }
   }
 }
