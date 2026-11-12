@@ -2,6 +2,24 @@
 
 What changed in Foxy, newest first.
 
+## 0.9.7 (2026-11-12)
+
+### Features
+
+- The transcript names each voice: Speaker 1, Speaker 2 and so on, for the people on the call and for the people in the room. Foxy works this out on your computer with a small voice model, so nothing extra leaves it. Rename a speaker once and the whole transcript follows.
+- The speaker menu renames a participant with the pencil on its row and can add one. Renaming a speaker in the transcript also puts the name on the note's participants. Two voices are merged only after you confirm it, because a merge cannot be undone.
+- Someone who speaks only briefly still gets a number: a voice is numbered after about 4 seconds of speech instead of 10, and short turns keep their voice's number.
+- When you pick "You" on one of your own turns, Foxy learns your voice from it. A turn from the other side that has no number now says why: "Multiple", "New speaker", or the closest voice in grey, such as "Speaker 2?". The summary never takes such a guess for the speaker.
+- Foxy reopens the main window at the size and place you left it, maximized or not, after a quit or an update.
+- The update card shows how far the download has gone, then "Installing…" until you restart. It now sits under Trash and Help, just above your profile.
+- On Windows, Foxy finds Claude Desktop when Claude was installed from its new package, and Connect works with it.
+
+### Fixes
+
+- On macOS 26 the tabs sat too close to the top of the window. They now stand 8px from it, with the same gap below them.
+- In a narrow window, the block grip in a note no longer sticks out past the page.
+- When an update fails to install, Foxy says the install failed. Before, it said the download had failed.
+
 ## 0.9.6 (2026-10-27)
 
 ### Features
